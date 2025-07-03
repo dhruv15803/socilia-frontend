@@ -10,7 +10,7 @@ const Layout = () => {
       </div>
       <div className="hidden md:flex">
         <Sidebar />
-        <div className="w-full border-2  overflow-y-auto border-purple-500">
+        <div className="w-full border-2  overflow-y-auto">
           <Outlet />
         </div>
       </div>
